@@ -1,0 +1,16 @@
+.nav-bar {
+  background-color: antiquewhite;
+  min-height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__link {
+    margin: 0 8px;
+
+    &--text-red {
+      color: red;
+    }
+  }
+}
